@@ -673,7 +673,7 @@ public abstract class FrameworkServlet extends HttpServletBean implements Applic
 
 		postProcessWebApplicationContext(wac);
 		applyInitializers(wac);
-		wac.refresh();
+		wac.refrefsh();
 	}
 
 	/**
